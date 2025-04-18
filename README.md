@@ -1,122 +1,56 @@
-NuchoBlackHatey VPN Configs
 
-Welcome to the NuchoBlackHatey VPN Configs repository! This project provides high-quality VPN configuration files for secure and private internet access. Whether you're looking to protect your online privacy or access geo-restricted content, our configs are designed for ease of use with popular VPN protocols like OpenVPN and WireGuard.
+# NuchoBlackHatey VPN Configs
 
-Website: http://nuchoblackhatey.ct.ws (Note: Currently uses HTTP due to unpaid SSL. Use with caution and verify in browsers.)
+Welcome to the **NuchoBlackHatey VPN Configs** repository! This project provides high-quality VPN configuration files designed for secure and private internet access. Whether you're looking to protect your online presence or access region-specific content, we've got you covered.
 
-Features
+### Website: [http://nuchoblackhatey.ct.ws](http://nuchoblackhatey.ct.ws)  
+**Note**: The website currently uses HTTP due to an unpaid SSL certificate. Use with caution and verify in your browser.
 
+---
 
+## Features
 
+- **Secure Configurations**: Pre-configured `.ovpn` and `.conf` files for OpenVPN and WireGuard.
+- **High-Speed Servers**: Optimized configurations for performance across multiple regions.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, Linux, iOS, and Android.
+- **Regular Updates**: Frequent additions to ensure reliability and access.
 
+---
 
-Secure Configurations: Pre-configured .ovpn and .conf files for OpenVPN and WireGuard.
+## Getting Started
 
+### Prerequisites
+1. A VPN client compatible with OpenVPN or WireGuard (e.g., OpenVPN Community Client, WireGuard Client).
+2. Basic knowledge of VPN setup and configuration.
+3. A trusted VPN service subscription (configs are compatible with third-party providers or our premium services).
 
+### Installation
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/<your-username>/nuchoblackhatey-vpn-configs.git
+   cd nuchoblackhatey-vpn-configs
+   ```
 
-High-Speed Servers: Configs optimized for performance across multiple regions.
+2. **Choose a Configuration**:
+   - Navigate to the `configs/` directory.
+   - Select a `.ovpn` (OpenVPN) or `.conf` (WireGuard) file based on your preferred region (e.g., `us-east.ovpn`, `eu-west.conf`).
 
+3. **Set Up Your VPN Client**:
+   - **For OpenVPN**:
+     1. Import the `.ovpn` file into your OpenVPN client.
+     2. Enter your VPN provider credentials (if required).
+     3. Connect to the server.
+   - **For WireGuard**:
+     1. Import the `.conf` file into your WireGuard client.
+     2. Activate the connection.
 
+4. **Test the Connection**:
+   - Visit [ipleak.net](https://ipleak.net) to verify your IP address and DNS settings.
 
-Cross-Platform: Compatible with Windows, macOS, Linux, iOS, and Android.
+---
 
-
-
-Regular Updates: New configs added frequently to ensure reliability and access.
-
-Getting Started
-
-Prerequisites
-
-
-
-
-
-A VPN client compatible with OpenVPN or WireGuard (e.g., OpenVPN Community Client, WireGuard Client).
-
-
-
-Basic knowledge of VPN setup and configuration.
-
-
-
-A trusted VPN service subscription (configs are designed to work with third-party providers or our premium services).
-
-Installation
-
-
-
-
-
-Clone the Repository:
-
-git clone https://github.com/<your-username>/nuchoblackhatey-vpn-configs.git
-cd nuchoblackhatey-vpn-configs
-
-
-
-Choose a Config:
-
-
-
-
-
-Navigate to the configs/ directory.
-
-
-
-Select a .ovpn (OpenVPN) or .conf (WireGuard) file based on your preferred region (e.g., us-east.ovpn, eu-west.conf).
-
-
-
-Set Up Your VPN Client:
-
-
-
-
-
-OpenVPN:
-
-
-
-
-
-Import the .ovpn file into your OpenVPN client.
-
-
-
-Enter your VPN provider credentials (if required).
-
-
-
-Connect to the server.
-
-
-
-WireGuard:
-
-
-
-
-
-Import the .conf file into your WireGuard client.
-
-
-
-Activate the connection.
-
-
-
-Test the Connection:
-
-
-
-
-
-Visit ipleak.net to verify your IP address and DNS settings.
-
-Example Config Structure
-
+## Example Config Structure
+```plaintext
 configs/
 ├── openvpn/
 │   ├── us-east.ovpn
@@ -126,87 +60,69 @@ configs/
 │   ├── us-west.conf
 │   ├── eu-central.conf
 │   └── asia-east.conf
+```
 
-Usage
+---
 
+## Usage
 
+- **Free Configs**: Sample configs are available in the `configs/free/` directory for testing. These are limited in speed and server access.
+- **Premium Configs**: Access high-speed servers and exclusive regions by purchasing premium configs via [http://nuchoblackhatey.ct.ws](http://nuchoblackhatey.ct.ws).  
+  **Note**: The website uses HTTP; ensure secure payment methods.
+- **Custom Configs**: Contact us via the website to request tailored configs for specific providers or regions.
 
+---
 
-
-Free Configs: The configs/free/ directory contains sample configs for testing. These are limited in speed and server access.
-
-
-
-Premium Configs: Purchase premium configs via http://nuchoblackhatey.ct.ws for access to high-speed servers and exclusive regions. (Note: Website uses HTTP; ensure secure payment methods.)
-
-
-
-Custom Configs: Contact us via the website to request configs tailored to specific providers or regions.
-
-Contributing
+## Contributing
 
 We welcome contributions to improve our configs or add support for new VPN protocols! To contribute:
 
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a Pull Request.
 
+For detailed guidelines, refer to `CONTRIBUTING.md`.
 
+---
 
+## Security Notes
 
-Fork the repository.
+1. **Website Security**: The website lacks an SSL certificate, which may trigger "not secure" warnings in browsers. Exercise caution when entering sensitive information.
+2. **Verify Configs**: Always verify the authenticity of downloaded configs. Use the SHA256 checksums provided in `configs/checksums.txt`.
+3. **Secure Connections**: Keep your VPN client updated to avoid vulnerabilities.
 
+---
 
+## License
 
-Create a new branch (git checkout -b feature/your-feature).
+This project is licensed under the MIT License. See `LICENSE` for details.  
+Note: Premium configs may have separate commercial terms, as outlined on the website.
 
+---
 
+## Contact
 
-Commit your changes (git commit -m 'Add new feature').
+- **Website**: [http://nuchoblackhatey.ct.ws](http://nuchoblackhatey.ct.ws)
+- **Support**: Reach out via the website’s contact form or open an issue on GitHub.
+- **Issues**: Report bugs or request features in the Issues section.
 
+---
 
+## Disclaimer
 
-Push to the branch (git push origin feature/your-feature).
+This repository provides VPN configurations for **legal and ethical use only**. Users are responsible for complying with local laws and VPN provider terms.  
+**Note**: We do not host VPN servers; configs are for use with compatible third-party providers.
 
+---
 
-
-Open a Pull Request.
-
-Please read CONTRIBUTING.md for detailed guidelines.
-
-Security Notes
-
-
-
-
-
-HTTP Warning: The website currently lacks an SSL certificate, which may trigger "not secure" warnings in browsers. Use caution when entering sensitive information.
-
-
-
-Verify Configs: Always verify downloaded configs for authenticity. Check file integrity using SHA256 checksums provided in configs/checksums.txt.
-
-
-
-Secure Connections: Ensure your VPN client is up-to-date to avoid vulnerabilities.
-
-License
-
-This project is licensed under the MIT License. See LICENSE for details. Note that premium configs may have separate commercial terms, as outlined on the website.
-
-Contact
-
-
-
-
-
-Website: http://nuchoblackhatey.ct.ws
-
-
-
-Support: Reach out via the website’s contact form or open an issue on GitHub.
-
-
-
-Issues: Report bugs or request features in the Issues section.
-
-Disclaimer
-
-This repository provides VPN configurations for legal and ethical use only. Users are responsible for complying with local laws and VPN provider terms. We do not host VPN servers; configs are for use with third-party services.
